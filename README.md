@@ -19,7 +19,8 @@
 
 # 📖 [Conference-website] <a name="Conference-website"></a>
 
-**[Conference-website]** A website concept based on an online website for a conference.
+**[Conference-website]** 
+A conference website concept based on the orginal theme design by<li><a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin</a></li>Customized for the Sapien-Ai conference based on requirements of the Mircoverse capstone project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
