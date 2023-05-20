@@ -14,3 +14,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* root theme attributes */
+:root {
+  --dark-color: #272a31;
+  --main-theme-color: #ec5242;
+  --grey-color: #d3d3d3;
+}
+
+/* navigation section| header  */
