@@ -13,13 +13,16 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: var(--main-background-color);
 }
 
 /* root theme attributes */
 :root {
   --dark-color: #272a31;
   --main-theme-color: #ec5242;
-  --hero-text-color: #ec5242;
+  --main-background-color: #fbf9f9;
+  --white-color: #fff;
+  --grey-color: #e3e3e3;
 }
 
 /* toolbar section| header */
@@ -29,7 +32,6 @@ body {
   justify-content: space-between;
   height: 50px;
   width: 100%;
-  color: var(--white-color);
 
   /* TODO : Will Hide toolbar shadow in desktop dynamically */
   box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
@@ -84,48 +86,52 @@ body {
 .hero-section {
   position: relative;
   top: 2px;
-  background: url(./assets/images/mobile/capstone-bg-mobile.svg) top/cover no-repeat;
-  margin-left: 30px;
+
+  /* TODO : Replace image with transparent png image-SVG is affecting background color of hero */
+
+  /* background: url(./assets/images/mobile/capstone-bg-mobile.svg) top/cover no-repeat; */
 }
 
-.hero-content {
+.hero-container {
   margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.hero-content h1 {
+.hero-container h1 {
   font-weight: 900;
   margin-top: 10px;
   font-size: 40px;
-  color: var(--hero-text-color);
+  color: var(--main-theme-color);
 }
 
-.hero-content p {
+.hero-container p {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: normal;
-  color: var(--hero-text-color);
+  color: var(--main-theme-color);
 }
 
-.hero-content span {
+.hero-container span {
   display: block;
   font-size: 40px;
   margin-top: 5px;
 }
 
 .description-container {
-  margin-bottom: 10px;
-  border-width: 2px;
-  border-color: #fff;
+  border-width: 6px;
+  border-color: var(--white-color);
   border-style: solid;
-  background-color: #f8f8f8;
   justify-content: center;
-  margin-right: 20px;
+  margin-right: 2px;
+  margin-left: 2px;
   margin-top: 5px;
-  padding: 10px;
+  padding: 2px;
+  margin-bottom: 2px;
+  background-color: var(--grey-color);
 }
 
-.description-container p {
-  margin-bottom: 10px;
+.description-container .description {
   color: var(--dark-color);
 }
 
