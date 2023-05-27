@@ -26,71 +26,32 @@ body {
 .toolbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 50px;
   width: 100%;
   color: var(--white-color);
-  top: 44px;
-  bottom: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  
+  box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-#header-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2px;
-  background-size: cover;
-  position: relative;
-  top: -90px;
-}
-
-.header {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: url(./assets/images/mobile/header-illustration-mobile.svg) top/cover no-repeat;
+.toolbar-menu {
   width: 100%;
-  padding-top: 5px;
-  background-size: 100%;
-  background-position: center;
-  height: 120vh;
 }
 
-.header-title {
+.nav-bar {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  white-space: wrap;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: var(--title-color);
-  text-align: center;
-  margin-bottom: 10px;
-  margin-top: 30;
-}
-
-/* menu */
-.menu-container {
-  display: none;
-}
-
-.supporting-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
   align-items: center;
-  margin-bottom: 20px;
-  color: var(--title-color);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
+  width: 100%;
+}
+
+.hamburger {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 1;
+  color: var(--black-color);
 }
 
 /* Header icons */
@@ -101,13 +62,12 @@ body {
   cursor: pointer;
 }
 
-.hamburger {
-  position: absolute;
-  top: 20px;
-  left: 30px;
-  z-index: 1;
-  color: var(--black-color);
+/* menu */
+.menu-container {
+  display: none;
 }
+
+/* navigation section| header  END */
 .logo {
   background: url(./assets/images/logo.svg);
   background-position: center;
@@ -115,4 +75,37 @@ body {
   background-size: contain;
   width: 100px;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section {
+  position: relative;
+  top: 2px;
+  background: url(./assets/images/mobile/capstone-bg-mobile.svg) top/cover no-repeat;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-content {
+  color: var(--title-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.hero-content h1 {
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.hero-content span {
+  display: block;
+  font-size: 25px;
+  margin-top: 5px;
 }
