@@ -127,11 +127,13 @@ body {
 
 .date-venue {
   color: var(--dark-color);
-  margin: 5px;
+  width: 100%;
+  margin-right: 2px;
+  margin-left: 2px;
 }
 
 .date-venue h3 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .date-venue p {
@@ -186,7 +188,7 @@ body {
   align-items: center;
 }
 
-.card {
+.program-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -246,3 +248,28 @@ body {
 }
 
 /* program-section END  */
+
+/* Speakers section START */
+#speaker-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-color);
+  height: 100vh;
+  margin-top: 30%;
+}
+
+.speaker-container {
+  margin: 10px 20px 20px;
+}
+
+.speaker-container h1 {
+  position: relative;
+  font-style: normal;
+  font-size: 30px;
+  color: var(--dark-color);
+  text-align: center;
+  margin-bottom: 5px;
+  padding: 1rem;
+}
