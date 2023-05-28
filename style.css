@@ -141,12 +141,15 @@ body {
 /* her-section end  */
 
 #program-section {
+  display: flex;
+  flex-direction: column;
   background-color: var(--dark-color);
   height: 90vh;
+  margin-top: 30%;
 }
 
 .program-container {
-  margin: 40px 20px 20px;
+  margin: 10px 20px 20px;
 }
 
 .program-container h1 {
@@ -155,9 +158,8 @@ body {
   font-size: 30px;
   color: var(--white-color);
   text-align: center;
-  margin-bottom: 3px;
-  margin-top: 70px;
-  padding: 2rem;
+  margin-bottom: 30px;
+   padding: 1rem; 
 }
 
 .section-indicator {
@@ -165,7 +167,6 @@ body {
   width: 48px;
   height: 4px;
   background-color: var(--main-theme-color);
-  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 24px;
