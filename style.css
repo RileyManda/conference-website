@@ -181,7 +181,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(355px, 3fr));
   margin-top: 30px;
   padding: 11px 12px;
-  gap: 10px;
+  gap: 5px;
   justify-content: center;
   align-items: center;
 }
@@ -190,8 +190,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 30px;
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
   width: 355px;
   height: 82.06px;
   background-color: var(--grey-color);
