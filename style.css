@@ -60,18 +60,19 @@ body {
 .hamburger {
   position: absolute;
   top: 20px;
-  left: 30px;
+  left: 20px;
   z-index: 1;
   color: var(--black-color);
 }
 
 /* Header icons */
-.chevron-icon {
+
+/* .chevron-icon {
   text-align: center;
   margin-top: 10px;
   padding: 8px;
   cursor: pointer;
-}
+} */
 
 /* menu */
 .menu-container {
@@ -119,7 +120,7 @@ body {
 
 .hero-content-container {
   margin-top: -80px;
-  margin-left: 5px;
+  margin-left: 10px;
   margin-right: 5px;
   margin-bottom: 90px;
 }
