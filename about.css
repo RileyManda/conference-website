@@ -271,7 +271,7 @@ body {
   justify-content: center;
   background-color: var(--white-color);
   height: 80vh;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 
 .creative-container {
@@ -442,3 +442,37 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* partner section END */
+
+/* Footer section */
+#footer-section {
+  background-color: white;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.footer-column {
+  display: flex;
+  align-items: center;
+}
+
+.footer-column img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-column p {
+  margin-left: 20px;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+}
+
+/* footer section END */
