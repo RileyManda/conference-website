@@ -114,7 +114,7 @@ body {
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 90vh;
   margin-top: -60px;
 }
 
@@ -181,7 +181,7 @@ body {
 }
 
 .program-container {
-  margin: 10px 20px 20px;
+  margin: 0 20px 10px;
 }
 
 .program-container h1 {
@@ -284,7 +284,7 @@ body {
   justify-content: center;
   background-color: var(--dark-color);
   height: 100vh;
-  margin-top: 30%;
+  margin-top: -50px;
 }
 
 .speaker-container {
@@ -299,4 +299,33 @@ body {
   text-align: center;
   margin-bottom: 5px;
   padding: 1rem;
+}
+
+.speaker-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-card {
+  display: flex;
+  align-items: center;
+}
+
+.speaker-card img {
+  height: auto;
+  margin-right: 20px;
+}
+
+.speaker-card .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.speaker-card h2 {
+  margin: 0;
+}
+
+.speaker-card p {
+  margin: 0;
 }
