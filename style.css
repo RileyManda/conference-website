@@ -304,6 +304,7 @@ body {
 .speaker-content {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .speaker-card {
@@ -322,10 +323,24 @@ body {
   align-items: flex-start;
 }
 
-.speaker-card h2 {
+.speaker-card h2 p {
   margin: 0;
 }
 
-.speaker-card p {
+.text-content .speaker-credential {
   margin: 0;
+  font-size: 12px;
+  color: var(--main-theme-color);
+  font-weight: 600;
 }
+
+.text-content .speaker-description {
+  margin: 0;
+  font-size: 13px;
+  color: var(--dark-color);
+  font-weight: 600;
+}
+
+/* .speaker-card p {
+  margin: 0;
+} */
