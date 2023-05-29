@@ -391,8 +391,10 @@ body {
 
 .speaker-card img {
   height: auto;
+  width: 100px;
   margin-right: 20px;
   margin-bottom: 10px;
+  background-color: var(--grey-color);
 }
 
 .speaker-card .text-content {
@@ -452,5 +454,8 @@ body {
 /* speaker section END */
 
 /* About Page */
+.hero-container .about {
+  background: url(./assets/images/mobile/hero-bg-mobile.png);
+}
 
 /* About Page END */
