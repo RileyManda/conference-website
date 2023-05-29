@@ -221,9 +221,21 @@ body {
 }
 
 .description-container {
+  flex-direction: column;
+  width: 100%;
+  margin-top: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description-container p {
   background-color: var(--white-color);
   color: var(--dark-color);
-  width: 100%;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .date-venue {
@@ -231,6 +243,11 @@ body {
   width: 100%;
   margin-right: 2px;
   margin-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 .date-venue h3 {
