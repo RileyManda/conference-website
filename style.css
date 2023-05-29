@@ -27,18 +27,25 @@ body {
 
 /* toolbar section| header */
 .toolbar {
+  left: 0;
+  height: 50px;
+  width: 100%;
+  top: 44px;
+  bottom: 0;
+}
+
+/* TODO: Use toolbar with shadow for desktop */
+
+/* .toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 50px;
   width: 100%;
-
-  /* TODO : Will Hide toolbar shadow in desktop dynamically */
   box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
   padding: 0 20px;
   box-sizing: border-box;
-}
-
+} */
 .toolbar-menu {
   width: 100%;
 }
@@ -80,37 +87,56 @@ body {
   height: 100px;
   margin-left: auto;
   margin-right: auto;
+  visibility: hidden;
 }
 
-/* toolbar section| header  END */
+/* hero section| header  END */
 #hero-section {
   position: relative;
-  top: 2px;
-
-  /* TODO : Replace image with transparent png image-SVG is affecting background color of hero */
-
-  /* background: url(./assets/images/mobile/capstone-bg-mobile.svg) top/cover no-repeat; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  background-size: cover;
+  top: 0;
+  margin-bottom: 10px;
 }
 
 .hero-container {
-  margin: 40px 20px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./assets/images/mobile/hero-bg-mobile.png);
+  padding-top: 5px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: -60px;
 }
 
-.hero-container h1 {
+.hero-content-container {
+  margin-top: -80px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 90px;
+}
+
+.hero-content-container h1 {
   font-weight: 900;
-  margin-top: 10px;
   font-size: 40px;
   color: var(--main-theme-color);
 }
 
-.hero-container h2 {
+.hero-content-container h2 {
   font-size: 20px;
-  margin-bottom: 10px;
   font-weight: normal;
   color: var(--main-theme-color);
 }
 
-.hero-container span {
+.hero-content-container span {
   display: block;
   font-size: 40px;
   margin-top: 5px;
@@ -150,7 +176,7 @@ body {
   justify-content: center;
   background-color: var(--dark-color);
   height: 100vh;
-  margin-top: 30%;
+  margin-top: -200px;
 }
 
 .program-container {
