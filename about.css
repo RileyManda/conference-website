@@ -314,8 +314,8 @@ body {
   background: url(./assets/logos/about_logo1.svg);
   background-position: center;
   background-repeat: no-repeat;
-background-size: cover;
-height: 100px;
+  background-size: cover;
+  height: 100px;
   width: 100%;
   background-color: #fff;
   padding: 20px;
@@ -323,7 +323,6 @@ height: 100px;
   justify-content: center;
   align-items: center;
 }
-
 
 /* creative-section END  */
 
