@@ -170,30 +170,47 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 5px;
-  background-image: url(./assets/images/mobile/hero-bg-mobile.png);
+  background-image: url(./assets/images/mobile/about-bg-mobile.png);
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
   height: 80vh;
-  margin-top: -50px;
+  margin-top: -30px;
 
   /* TODO: Will remove margin -50px in hero to expose the logo in desktop */
 }
 
-.hero-content-container {
+/* .hero-content-container {
   margin-top: -100px;
   margin-left: 10px;
   margin-right: 5px;
   margin-bottom: 10px;
+} */
+
+.hero-content-container {
+    display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .hero-content-container h1 {
   font-weight: 900;
-  font-size: 40px;
+  font-size: 30px;
   color: var(--main-theme-color);
+  white-space: nowrap;
 }
 
 .hero-content-container h2 {
+  white-space: nowrap;
   font-size: 20px;
   font-weight: normal;
   color: var(--main-theme-color);
@@ -201,17 +218,15 @@ body {
 
 .hero-content-container span {
   display: block;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 5px;
 }
 
 .description-container {
-  border: 6px solid var(--white-color);
-  justify-content: center;
-  margin: 5px 2px 2px;
   padding: 12px;
-  background-color: var(--grey-color);
+  background-color: var(--white-color);
   color: var(--dark-color);
+width: 100%;
 }
 
 .date-venue {
