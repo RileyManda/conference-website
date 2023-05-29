@@ -27,14 +27,17 @@ body {
 
 /* toolbar section| header */
 .toolbar {
-  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   height: 50px;
   width: 100%;
-  top: 44px;
-  bottom: 0;
+  box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
-/* TODO: Use toolbar with shadow for desktop */
+/* TODO: Will Use toolbar with shadow for desktop */
 
 /* .toolbar {
   display: flex;
@@ -64,6 +67,17 @@ body {
   left: 20px;
   z-index: 1;
   color: var(--dark-color);
+}
+
+.logo {
+  background: url(./assets/images/logo.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Mobile Menu */
@@ -136,17 +150,6 @@ body {
   display: none;
 }
 
-.logo {
-  background: url(./assets/images/logo.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100px;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* hero section|STARt */
 #hero-section {
   position: relative;
@@ -170,8 +173,10 @@ body {
   background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
-  height: 70vh;
-  margin-top: -80px;
+  height: 80vh;
+  margin-top: -50px;
+
+  /* TODO: Will remove margin -50px in hero to expose the logo in desktop */
 }
 
 .hero-content-container {
@@ -234,6 +239,9 @@ body {
   background-color: var(--dark-color);
   height: 80vh;
   margin-top: -130px;
+  background-image: url("assets/images/pattern_bg.png");
+  background-repeat: repeat;
+  background-size: auto;
 }
 
 .program-container {
@@ -285,10 +293,18 @@ body {
   color: var(--white-color);
 }
 
+/* .program-card {
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  padding: 6px;
+  text-align: center;
+} */
+
 .card-icon {
-  width: 40px;
   height: auto;
-  margin-right: 10px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
 }
 
 .card-content {
@@ -305,15 +321,16 @@ body {
 }
 
 .card-title {
+  margin: 0;
+  margin-right: 10px;
   font-size: 20px;
   color: var(--main-theme-color);
   padding: 0;
-  margin-right: 2px;
+  margin-left: 0;
 }
 
 .card-description {
   font-size: 12px;
-  align-self: start;
 }
 
 .program-btn {
@@ -426,8 +443,13 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.more-btn i {
+  margin-left: 5px;
+  color: var(--main-theme-color);
+}
+
 /* speaker section END */
 
-/* .speaker-card p {
-  margin: 0;
-} */
+/* About Page */
+
+/* About Page END */
