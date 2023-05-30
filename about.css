@@ -122,6 +122,16 @@ body {
   color: var(--mobile-items-color);
 }
 
+.close-btn {
+  position: absolute;
+  margin: 10px;
+  top: 60px;
+  right: 60px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
 /* Mobile Menu END */
 
 /* menu */
@@ -271,7 +281,7 @@ body {
 .creative-content {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 11px 12px;
   gap: 5px;
   justify-content: center;
@@ -338,7 +348,6 @@ body {
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
-  align-items: center;
   font-size: 12px;
   color: black;
 }
