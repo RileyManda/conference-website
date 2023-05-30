@@ -529,6 +529,20 @@ body {
     padding: 10px;
     text-align: center;
     display: block;
+    justify-content: space-between;
+  }
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .social-icon-menu {
+    color: white;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   /* toolbar- START  */
