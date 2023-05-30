@@ -659,6 +659,7 @@ body {
     color: var(--white-color);
     align-items: center;
     justify-content: center;
+    text-align: center;
   }
 
   .card-title {
