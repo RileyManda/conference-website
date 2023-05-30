@@ -445,13 +445,11 @@ body {
 
   .logo {
     background: url(./assets/images/logo.svg);
-    background-position: center;
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 100px;
     height: 100px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   #hero-section {
