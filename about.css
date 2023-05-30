@@ -127,7 +127,11 @@ body {
 /* Mobile Menu END */
 
 /* menu */
-.menu-container .social-navbar {
+.menu-container {
+  display: none;
+}
+
+.social-navbar {
   display: none;
 }
 
@@ -524,6 +528,7 @@ body {
     color: white;
     padding: 10px;
     text-align: center;
+    display: block;
   }
 
   /* toolbar- START  */
