@@ -172,7 +172,8 @@ If you think that change is necessary - open a Pull Request in this repository a
 
 
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Attribution <a name="contributing"></a>
+Summit Images from - Ethzurich: [@Ethzurich](https://ai.ethz.ch/industry/AIplusX/aixsummit22.html)
 
 <!-- FUTURE FEATURES -->
 

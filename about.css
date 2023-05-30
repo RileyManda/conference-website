@@ -358,7 +358,7 @@ body {
   margin-top: 5px;
 }
 
-.past-logo-card {
+.past-image-card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -369,6 +369,28 @@ body {
   background-color: var(--grey-color);
   align-items: center;
   color: var(--white-color);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ec5242;
+  color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
 }
 
 /* .program-card {
@@ -426,7 +448,6 @@ body {
   margin-top: -160px;
 }
 
-/* program content */
 .partner-content {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(355px, 3fr));
