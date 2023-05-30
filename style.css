@@ -121,7 +121,9 @@ body {
 /* Mobile Menu END */
 
 /* menu */
-.menu-container {
+
+/* social navbar */
+.menu-container .social-navbar {
   display: none;
 }
 
@@ -426,10 +428,22 @@ body {
 /* Desktop Media Queries */
 @media only screen and (min-width: 768px) {
   /* toolbar- START  */
+  .social-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
   .toolbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 30px;
     height: 50px;
     width: 100%;
     padding: 0 20px;

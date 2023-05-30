@@ -127,7 +127,7 @@ body {
 /* Mobile Menu END */
 
 /* menu */
-.menu-container {
+.menu-container .social-navbar {
   display: none;
 }
 
@@ -854,7 +854,7 @@ body {
   .footer-column p {
     margin: 0;
     font-size: 12px;
-    color: black;
+    color: var(--white-color);
     white-space: nowrap;
     padding: 10px;
   }
