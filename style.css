@@ -36,6 +36,8 @@ body {
   box-sizing: border-box;
 }
 
+/* box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2); */
+
 /* TODO: Will Use toolbar with shadow for desktop */
 
 /* .toolbar {
@@ -453,3 +455,21 @@ body {
 }
 
 /* speaker section END */
+
+/* Desktop Media Queries */
+@media only screen and (min-width: 768px) {
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
