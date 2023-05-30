@@ -589,6 +589,7 @@ body {
     background-image: url("assets/images/pattern_bg.png");
     background-repeat: repeat;
     background-size: auto;
+    position: relative;
   }
 
   .program-container {
@@ -690,9 +691,10 @@ body {
     padding: 20px 50px;
     gap: 10px;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: -100px;
-    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
   /* program-section END  */
