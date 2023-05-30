@@ -20,7 +20,7 @@
 # 📖 [Conference-website] <a name="Conference-website"></a>
 
 **[Conference-website]** 
-A conference website concept based on the orginal theme design by<li><a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin</a></li>customized for the Sapien-Ai conference based on requirements of the Mircoverse capstone project.
+A conference website concept based on the orginal theme design by<li><a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Cindy Shin</a></li>customized for the Sapien-Ai conference according to requirements of the Mircoverse capstone project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,9 +46,9 @@ A conference website concept based on the orginal theme design by<li><a href="ht
 
 ### Key Features <a name="key-features"></a>
 
-- **[ResponsiveWebsite]**
-- **[HomePageSection]**
-- **[AboutSection]**
+- **[Responsive Website(Mobile and Web)]**
+- **[Home Page]**
+- **[About Page]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
