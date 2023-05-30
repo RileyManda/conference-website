@@ -460,9 +460,19 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(355px, 3fr));
   margin-top: 30px;
   padding: 11px 12px;
-  gap: 5px;
-  justify-content: center;
+  gap: 20px;
   align-items: center;
+  justify-content: flex-start;
+}
+
+.top-row {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* partner section END */
