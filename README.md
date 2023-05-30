@@ -57,7 +57,7 @@ A conference website concept based on the orginal theme design by<li><a href="ht
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://)
+- [Live Demo Link](https://rileymanda.github.io/conference-website/)
 
 <!-- ## 🚀 Project Presentation <a name="project-presentation"></a>
 
