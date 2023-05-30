@@ -648,13 +648,14 @@ body {
     margin-top: 5px;
   }
 
-  .description-container {
-    border: 6px solid var(--white-color);
+  .description-container p {
+    border: 2px solid var(--grey-color);
     justify-content: center;
     margin: 5px 2px 2px;
-    background-color: var(--grey-color);
+    background-color: var(--white-color);
     color: var(--dark-color);
     padding: 50px;
+    margin-top: -60px;
   }
 
   .date-venue {
@@ -670,6 +671,19 @@ body {
 
   .date-venue p {
     font-size: 30px;
+  }
+
+  .contact-info {
+    background-color: transparent;
+    color: var(--dark-color);
+    width: 100%;
+    margin-right: 2px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
   }
 
   /* hero-section END  */
