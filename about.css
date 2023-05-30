@@ -33,23 +33,9 @@ body {
   justify-content: space-between;
   height: 50px;
   width: 100%;
-  box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
   padding: 0 20px;
   box-sizing: border-box;
 }
-
-/* TODO: Will Use toolbar with shadow for desktop */
-
-/* .toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 50px;
-  width: 100%;
-  box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
-  padding: 0 20px;
-  box-sizing: border-box;
-} */
 
 .toolbar-menu {
   width: 100%;
@@ -138,15 +124,6 @@ body {
 
 /* Mobile Menu END */
 
-/* Header icons */
-
-/* .chevron-icon {
-  text-align: center;
-  margin-top: 10px;
-  padding: 8px;
-  cursor: pointer;
-} */
-
 /* menu */
 .menu-container {
   display: none;
@@ -177,16 +154,7 @@ body {
   background-repeat: no-repeat;
   height: 50vh;
   margin-top: -30px;
-
-  /* TODO: Will remove margin -50px in hero to expose the logo in desktop */
 }
-
-/* .hero-content-container {
-  margin-top: -100px;
-  margin-left: 10px;
-  margin-right: 5px;
-  margin-bottom: 10px;
-} */
 
 .hero-content-container {
   display: flex;
@@ -196,7 +164,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 10%;
+  top: 15%;
   width: 100%;
   max-width: 100%;
 }
@@ -369,6 +337,7 @@ body {
   margin: 0;
   margin-right: 10px;
   margin-left: 10px;
+  margin-bottom: 10px;
   align-items: center;
   font-size: 12px;
   color: black;
