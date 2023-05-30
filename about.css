@@ -445,6 +445,7 @@ body {
 
 /* partner section END */
 
+/* footer section START */
 #footer-section {
   background-color: white;
 }
@@ -468,8 +469,9 @@ body {
 }
 
 .footer-column p {
+  width: 100%;
   margin: 0;
-  font-size: 16px;
+  font-size: 12px;
   color: black;
   white-space: nowrap;
 }
@@ -477,3 +479,11 @@ body {
 .footer-column p:last-child {
   margin-top: 5px;
 }
+
+.footer-column p span {
+  display: block;
+  white-space: normal;
+  margin-top: 5px;
+}
+
+/* footer section END */
