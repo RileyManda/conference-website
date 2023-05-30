@@ -398,7 +398,8 @@ body {
   justify-content: center;
   background-color: var(--dark-color);
   height: 50vh;
-  margin-top: -90px;
+  margin-bottom: -50px;
+  margin-top: -80px;
 }
 
 .partner-container {
