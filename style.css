@@ -36,21 +36,6 @@ body {
   box-sizing: border-box;
 }
 
-/* box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2); */
-
-/* TODO: Will Use toolbar with shadow for desktop */
-
-/* .toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 50px;
-  width: 100%;
-  box-shadow: 0 2px 4px rgba(23, 23, 23, 0.2);
-  padding: 0 20px;
-  box-sizing: border-box;
-} */
-
 .toolbar-menu {
   width: 100%;
 }
@@ -68,18 +53,6 @@ body {
   left: 20px;
   z-index: 1;
   color: var(--dark-color);
-}
-
-.logo {
-  background: url(./assets/images/logo.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100px;
-  height: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  display: none;
 }
 
 /* Mobile Menu */
@@ -177,8 +150,6 @@ body {
   background-repeat: no-repeat;
   height: 80vh;
   margin-top: -50px;
-
-  /* TODO: Will remove margin -50px in hero to expose the logo in desktop */
 }
 
 .hero-content-container {
@@ -402,7 +373,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 5px;
 }
 
 .speaker-card h2 p {
@@ -472,4 +442,93 @@ body {
   .hamburger {
     display: none;
   }
+
+  .logo {
+    background: url(./assets/images/logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #hero-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    background-size: cover;
+    top: 0;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+
+  .hero-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    background-image: url(./assets/desktop/hero-bg-desktop.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .hero-content-container {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .hero-content-container h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: var(--main-theme-color);
+  }
+
+  .hero-content-container h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--main-theme-color);
+  }
+
+  .hero-content-container span {
+    display: block;
+    font-size: 40px;
+    margin-top: 5px;
+  }
+
+  .description-container {
+    border: 6px solid var(--white-color);
+    justify-content: center;
+    margin: 5px 2px 2px;
+    padding: 12px;
+    background-color: var(--grey-color);
+    color: var(--dark-color);
+  }
+
+  .date-venue {
+    color: var(--dark-color);
+    width: 100%;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .date-venue h3 {
+    font-size: 28px;
+  }
+
+  .date-venue p {
+    font-size: 14px;
+  }
+
+  /* header-section end  */
 }
