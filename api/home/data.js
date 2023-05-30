@@ -31,26 +31,50 @@ export const programData = [
   },
 ];
 
-export const aboutcards = [
+export const speakerData = [
   {
-    icon: './assets/icons/languages.svg',
-    title: 'Language',
-    tags: ['JavaScript', 'Ruby', 'HTML', 'CSS'],
+    image: './assets/images/speaker_01.svg',
+    name: 'Yochai Benkler',
+    credential:
+      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description:
+      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
-    icon: './assets/icons/frameworks.svg',
-    title: 'Frameworks',
-    tags: ['React.js', 'Ruby on Rails', 'RSpec', 'Capybara', 'Selenium'],
+    image: './assets/images/speaker_02.svg',
+    name: 'SohYeong Noh',
+    credential: 'Director of Art Centre Nabi and a board member of CC Korea',
+    description:
+      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
   {
-    icon: './assets/icons/skills.svg',
-    title: 'Skills',
-    tags: [
-      'Database Management',
-      'Version Control',
-      'CLI',
-      'Web Development',
-      'API Design',
-    ],
+    image: './assets/images/speaker_01.svg',
+    name: 'Yochai Benkler',
+    credential:
+      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description:
+      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+  },
+  {
+    image: './assets/images/speaker_02.svg',
+    name: 'SohYeong Noh',
+    credential: 'Director of Art Centre Nabi and a board member of CC Korea',
+    description:
+      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+  },
+  {
+    image: './assets/images/speaker_01.svg',
+    name: 'Yochai Benkler',
+    credential:
+      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description:
+      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+  },
+  {
+    image: './assets/images/speaker_02.svg',
+    name: 'SohYeong Noh',
+    credential: 'Director of Art Centre Nabi and a board member of CC Korea',
+    description:
+      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
 ];
