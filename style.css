@@ -57,7 +57,7 @@ body {
 }
 
 /* Mobile Menu */
-.program-btn-desktop {
+.program-link-desktop {
   display: none;
 }
 
@@ -487,6 +487,10 @@ body {
     margin-left: 390px;
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
   /* menu-section end  */
 
   /* toolbar- END  */
@@ -581,7 +585,7 @@ body {
     justify-content: center;
     background-color: var(--dark-color);
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 40px;
     background-image: url("assets/images/pattern_bg.png");
     background-repeat: repeat;
     background-size: auto;
@@ -669,12 +673,16 @@ body {
     font-size: 12px;
   }
 
-  .program-btn-desktop {
+  .program-btn {
+    display: none !important;
+  }
+
+  .program-link-desktop {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 100%;
     height: 68px;
     color: var(--white-color);
     padding: 20px 50px;
@@ -682,6 +690,7 @@ body {
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: -100px;
+    border: none;
   }
 
   /* program-section END  */
