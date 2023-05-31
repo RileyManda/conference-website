@@ -736,17 +736,19 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -40px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .card-title {
     margin: 0;
-    margin-right: 10px;
     font-size: 20px;
     color: var(--main-theme-color);
     padding: 0;
     margin-left: 10px;
     margin-bottom: 18px;
+    align-items: center;
   }
 
   .card-description {
@@ -911,7 +913,7 @@ body {
     justify-content: center;
     justify-content: space-between;
     margin-bottom: 20px;
-    gap: 40px;
+    gap: 90px;
   }
 
   .bottom-row {
