@@ -688,8 +688,6 @@ body {
   }
 
   /* program content */
-
-  /* program content */
   .program-content {
     display: grid;
     flex-direction: row;
@@ -707,7 +705,7 @@ body {
     gap: 5px;
     display: flex;
     width: 200px;
-    height: 270px;
+    height: 230px;
     background-color: var(--dark-color);
     align-items: center;
     color: var(--white-color);
@@ -726,18 +724,19 @@ body {
   .card-icon {
     height: auto;
     margin: 0;
-    padding: 0;
+    margin-top: -80px;
   }
 
   .card-content {
     display: flex;
     flex-direction: column;
-    width: 355px;
+    width: 400px;
     height: auto;
     color: var(--white-color);
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: -50px;
   }
 
   .card-title {
@@ -746,7 +745,8 @@ body {
     font-size: 20px;
     color: var(--main-theme-color);
     padding: 0;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-bottom: 18px;
   }
 
   .card-description {
