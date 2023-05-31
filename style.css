@@ -698,7 +698,7 @@ body {
     display: flex;
     width: 200px;
     height: 200px;
-    background-color: hsla(0, 100%, 79%, 0.362);
+    background-color: var(--dark-color);
     align-items: center;
     color: var(--white-color);
     margin-bottom: -40px;
@@ -716,7 +716,6 @@ body {
     flex-direction: column;
     width: 355px;
     height: auto;
-    background-color: var(--grey-color);
     color: var(--white-color);
     align-items: center;
     justify-content: center;
