@@ -281,7 +281,7 @@ body {
   grid-row-gap: 3px;
   width: 355px;
   height: 82.06px;
-  background-color: hsla(0, 100%, 79%, 0.362);
+  background-color: var(--dark-color);
   align-items: center;
   color: var(--white-color);
 }
@@ -300,7 +300,6 @@ body {
   grid-column-gap: 10px;
   width: 355px;
   height: auto;
-  background-color: var(--grey-color);
   color: var(--white-color);
   align-items: center;
   justify-content: center;
