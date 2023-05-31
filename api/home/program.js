@@ -1,4 +1,4 @@
-import { programData } from './data.js';
+import { programData } from '../data.js';
 
 const generateProgramCardHTML = (programCard) => {
   const { title, description, icon } = programCard;

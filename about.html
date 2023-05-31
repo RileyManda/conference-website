@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="about.css">
-    <title>Conference Website</title>
+    <title>SapienAi</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
 
         <div class="toolbar-menu">
             <nav class="nav-bar">
-                <div class="hamburger" id="open-menu" onclick="openMenu()">
+                <div class="hamburger" id="open-menu">
                     <i class="fa fa-bars"></i>
                 </div>
                 <div class="logo"></div>
@@ -50,18 +50,22 @@
     <!-- hero section END -->
 
     <!-- mobile-menu -->
-    <div class="mobile-menu hidden">
-        <div class="mobile-menu-container">
-            <div onclick="closeView()" class="close-btn" id="close-view">
-                <i class="fas fa-times"></i>
-            </div>
-            <!-- Content of the mobile menu -->
-            <ul class="mobile-menu-list">
-                <li class="mobile-menu-list-items" onclick="closeView()"><a href="index.html">Home</a></li>
-                <li class="mobile-menu-list-items active-item" onclick="closeView()"><a href="about.html">About</a></li>
-            </ul>
+<div class="mobile-menu">
+    <div class="mobile-menu-container">
+        <div class="close-btn" id="close-view">
+            <i class="fas fa-times"></i>
         </div>
+        <!-- Content of the mobile menu -->
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-list-items"><a href="index.html">Home</a></li>
+            <li class="mobile-menu-list-items"><a href="about.html">About</a></li>
+            <li class="mobile-menu-list-items"><a href="#program-section">Program</a></li>
+            <li class="mobile-menu-list-items"><a href="#join-section">Join</a></li>
+            <li class="mobile-menu-list-items"><a href="#sponsor-section">Sponsor</a></li>
+            <li class="mobile-menu-list-items"><a href="#news-section">News</a></li>
+        </ul>
     </div>
+</div>
     <!-- mobile-menu -->
     <main>
         <section id="about-section" class="hero-section">
@@ -88,45 +92,27 @@
             <!-- program section  START-->
             <section id="creative-section">
                 <div class="creative-container">
-                    <h1>Creative Commons
-                    Global Summit 2023 Logo</h1>
+                    <h2>Creative Commons
+                    Global Summit 2023 Logo</h2>
                     <div class="section-indicator"></div>
-                    <div class="creative-content">
-                        <p>The logo of CC Global Summit 2023 was decided through the logo competition from 8, June to 7, July.</p>
-                        <div class="creative-logo-card">
-                        </div>
+                    <div id="creative-content" class="creative-content">
                     </div>
              
                 </div>
-              
+                <hr class="full-width-divider" />
             </section>
             <!-- program section END -->
 
         <!-- past summit section  START-->
         <section id="past-section">
-            <hr class="full-width-divider" />
+         
             <div class="past-container">
-                <h1>See the past CC Global Summits</h1>
+                <h2>See the past CC Global Summits</h2>
                 <div class="section-indicator"></div>
-                <p class="description">Take a look at the past two CC Global Summits which took place <span>Buenos Aires and in
-                        Warsaw</span> </p>
-                <div class="past-content">
+                <p class="description">Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
+                <div id="past-content" class="past-content">
                    
-    <div class="card-container">
-        <div class="card-content">
-            <h2>2011</h2>
-            <p>CC Global Summit 2011 in Warsaw</p>
-        </div>
-        <img src="./assets/images/ai-summit-ethz_1.jpg" alt="CC Global Summit 2011">
-    </div>
-
-        <div class="card-container">
-            <div class="card-content">
-                <h2>2011</h2>
-                <p>CC Global Summit 2011 in Warsaw</p>
-            </div>
-            <img src="./assets/images/ai-summit-ethz_2.jpg" alt="CC Global Summit 2011">
-        </div>
+ 
                 </div>
         
             </div>
@@ -136,7 +122,7 @@
         <!-- partner section  START-->
             <section id="partner-section">
                 <div class="partner-container">
-                    <h1>Partner</h1>
+                    <h2>Partner</h2>
                     <div class="section-indicator"></div>
                     <div class="partner-content">
                     <div class="image-container">
@@ -161,7 +147,7 @@
 <section id="footer-section">
     <div class="footer-container">
         <div class="footer-column">
-            <img src="./assets/images/logo-white.svg" alt="">
+            <img src="./assets/images/logo.svg" alt="">
             <p>2023 Creative Commons Korea.<span>Some Rights Reserved.</span></p>
         </div>
         
@@ -172,7 +158,10 @@
 
     
     </main>
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="./api/data.js"></script>
+    <script type="module" src="./api/about/logo-section.js"></script>
+    <script type="module" src="./api/about/summit.js"></script>
 
 </body>
 
