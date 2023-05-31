@@ -245,14 +245,14 @@ body {
   justify-content: center;
   background-color: var(--white-color);
   height: 80vh;
-  margin-top: -55px;
+  margin-top: -30px;
 }
 
 .creative-container {
   margin: 0 10px 10px;
 }
 
-.creative-container h1 {
+.creative-container h2 {
   position: relative;
   font-style: normal;
   font-size: 30px;
