@@ -590,21 +590,23 @@ body {
 
   .hero-content-container {
     width: 70%;
-    margin-top: 100px;
+    margin-top: -60px;
     margin-left: 10px;
     margin-right: 50px;
     margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .hero-content-container h1 {
     font-weight: 900;
     font-size: 50px;
     color: var(--main-theme-color);
+    line-height: 80px;
   }
 
   .hero-content-container h2 {
-    font-size: 50px;
-    font-weight: normal;
+    font-size: 40px;
+    font-weight: bold;
     color: var(--main-theme-color);
   }
 
@@ -636,6 +638,7 @@ body {
 
   .date-venue p {
     font-size: 30px;
+    margin-bottom: 50px;
   }
 
   /* hero-section END  */
