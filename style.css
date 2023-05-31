@@ -759,19 +759,16 @@ body {
 
   .program-link-desktop {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     color: var(--white-color);
     padding: 20px 50px;
     gap: 10px;
     margin: 0 auto;
-    position: absolute;
-    bottom: -160px;
-    left: 0;
-    right: 0;
-    margin-top: -40px;
+    position: relative;
+    margin-top: 60px;
+    text-align: center;
   }
 
   /* program-section END  */
@@ -992,6 +989,10 @@ body {
 
 @media only screen and (max-width: 375px) {
   /* toolbar section| header */
+  .program-link-desktop {
+    display: none;
+  }
+
   .toolbar {
     display: flex;
     align-items: center;
@@ -1023,10 +1024,6 @@ body {
 
   /* Mobile Menu */
   .menu-list {
-    display: none;
-  }
-
-  .program-link-desktop {
     display: none;
   }
 
