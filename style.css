@@ -710,10 +710,12 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: box-shadow 0.3s ease;
     cursor: pointer;
+    border: none;
   }
 
   .program-card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(240, 240, 240);
   }
 
   .card-icon {
