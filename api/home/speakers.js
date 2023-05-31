@@ -1,4 +1,4 @@
-import { speakerData } from './data.js';
+import { speakerData } from '../data.js';
 
 const generateSpeakerCardHTML = (speaker) => {
   const {

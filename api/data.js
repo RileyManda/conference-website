@@ -78,3 +78,26 @@ export const speakerData = [
       'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
 ];
+
+export const logoData = [
+  {
+    image: '../assets/images/logo.svg',
+    alt: 'Logo 1',
+  },
+];
+
+export const description = 'Take a look at the past two CC Global Summits which took place <span>Buenos Aires and in Warsaw</span>';
+export const pastSummitsData = [
+  {
+    year: '2011',
+    location: 'CC Global Summit 2011 in Warsaw',
+    image: './assets/images/ai-summit-ethz_1.jpg',
+    alt: 'CC Global Summit 2011',
+  },
+  {
+    year: '2011',
+    location: 'CC Global Summit 2011 in Warsaw',
+    image: './assets/images/ai-summit-ethz_2.jpg',
+    alt: 'CC Global Summit 2011',
+  },
+];
