@@ -1,30 +1,30 @@
 export const programData = [
   {
-    title: 'Chats',
+    title: 'Invent',
     description:
-      'Join inspiring talks by speakers. Explore sharing in Sapien Ai Creative Commons.',
+      'Discover diverse creations in Sapien Ai Creative Commons.',
     icon: './assets/icons/lecture-icon.svg',
   },
   {
-    title: 'Arts',
+    title: 'DevOps',
     description:
       'Immerse in art at CC Exhibit. Discover diverse creations in Sapien Ai Creative Commons.',
     icon: './assets/icons/exhibit-icon.svg',
   },
   {
-    title: 'Debate',
+    title: 'System',
     description:
       'Engage in debates exploring AI, software, and expression in Sapien Ai Creative Commons.',
     icon: './assets/icons/forum-icon.svg',
   },
   {
-    title: 'Work',
+    title: 'Design',
     description:
       'Unlock creativity in hands-on sessions. Dive into AI and software to unleash potential.',
     icon: './assets/icons/workshop-icon.svg',
   },
   {
-    title: 'Connect',
+    title: 'Coding',
     description:
       'Expand network, connect with Sapien Ai Creative Commons affiliates. Explore AI-driven innovation.',
     icon: './assets/icons/ignite-icon.svg',
