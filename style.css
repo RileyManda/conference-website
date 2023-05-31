@@ -145,6 +145,8 @@ body {
   display: none;
 }
 
+/* toolbar section| header END */
+
 /* hero section|STARt */
 #hero-section {
   position: relative;
@@ -802,6 +804,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 5px;
+    padding: 0 10%;
   }
 
   .speaker-card {
