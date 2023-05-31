@@ -7,7 +7,7 @@ const generatePastCardHTML = (pastSummit) => {
   const cardHTML = `
     <div class="card-container">
       <div class="card-content">
-          <h2>${year}</h2>
+          <h3>${year}</h3>
           <p>${location}</p>
       </div>
       <img src="${image}" alt="${alt}">
