@@ -314,8 +314,9 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--white-color);
-  height: 80vh;
-  margin-top: -180px;
+  height: 100vh;
+  margin-bottom: -30px;
+  margin-top: -300px;
 }
 
 .past-container {
@@ -742,7 +743,7 @@ body {
     justify-content: center;
     background-color: var(--white-color);
     height: 50vh;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .creative-container {
@@ -833,7 +834,8 @@ body {
     justify-content: center;
     background-color: var(--white-color);
     height: 100vh;
-    margin-top: -10px;
+    margin-top: -80px;
+    margin-bottom: -300px;
   }
 
   .past-container {
