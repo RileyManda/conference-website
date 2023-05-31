@@ -14,22 +14,34 @@
 <body>
     <!-- navigation section| header -->
     <header class="toolbar">
+        <div class="social-navbar">
+            <nav class="social-icons-menu">
+                <div class="social-icons">
+                    <a href="#" class="social-icon-menu"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon-menu"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon-menu">Logout</a>
+                    <a href="#" class="social-icon-menu">Mypage</a>
+                    <a href="#" class="social-icon-menu">Korean</a>
+                </div>
+            </nav>
+        </div>
+      
+
         <div class="toolbar-menu">
             <nav class="nav-bar">
                 <div class="hamburger" id="open-menu" onclick="openMenu()">
                     <i class="fa fa-bars"></i>
                 </div>
                 <div class="logo"></div>
-                <div class="menu-container">
-                    <!-- <ul class="menu-list">
-    <li class="menu-item"><a href="#home-section">About</a></li>
-    <li class="menu-item"><a href="#about-section">Program</a></li>
-    <li class="menu-item"><a href="#about-section">Join</a></li>
-    <li class="menu-item"><a href="#about-section">Sponsor</a></li>
-    <li class="menu-item"><a href="#about-section">News</a></li>
-</ul> -->
-
-                </div>
+                        <ul class="menu-list">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+                            <li class="menu-item"><a href="about.html">About</a></li>
+                            <li class="menu-item"><a href="#program-section">Program</a></li>
+                            <li class="menu-item"><a href="#join-section">Join</a></li>
+                            <li class="menu-item"><a href="#sponsor-section">Sponsor</a></li>
+                            <li class="menu-item"><a href="#news-section">News</a></li>
+                            <li class="menu-item"><a href="#cc-section">CC Campaign</a></li>
+                        </ul>
 
             </nav>
 
@@ -46,7 +58,7 @@
             <!-- Content of the mobile menu -->
             <ul class="mobile-menu-list">
                 <li class="mobile-menu-list-items" onclick="closeView()"><a href="index.html">Home</a></li>
-                <li class="mobile-menu-list-items" onclick="closeView()"><a href="about.html">About</a></li>
+                <li class="mobile-menu-list-items active-item" onclick="closeView()"><a href="about.html">About</a></li>
             </ul>
         </div>
     </div>
@@ -64,8 +76,8 @@
                             advancements and shape our future.</p>
                     </div>
                     <div class="contact-info">
-                        <h3>Please contact us per Email for nay further questions about CC Global Summit 2015!</h3>
-                        <p>ccsummit2015@cckorea.org</p>
+                        <h3>Please contact us per Email for nay further questions about CC Global Summit 2023!</h3>
+                        <p>ccsummit2023@cckorea.org</p>
                     </div>
                 </div>
             </div>
@@ -77,35 +89,44 @@
             <section id="creative-section">
                 <div class="creative-container">
                     <h1>Creative Commons
-                    Global Summit 2015 Logo</h1>
+                    Global Summit 2023 Logo</h1>
                     <div class="section-indicator"></div>
                     <div class="creative-content">
-                        <p>The logo of CC Global Summit 2015 was decided through the logo competition from 8, June to 7, July.</p>
+                        <p>The logo of CC Global Summit 2023 was decided through the logo competition from 8, June to 7, July.</p>
                         <div class="creative-logo-card">
                         </div>
                     </div>
              
                 </div>
+              
             </section>
             <!-- program section END -->
 
         <!-- past summit section  START-->
         <section id="past-section">
+            <hr class="full-width-divider" />
             <div class="past-container">
                 <h1>See the past CC Global Summits</h1>
                 <div class="section-indicator"></div>
+                <p class="description">Take a look at the past two CC Global Summits which took place <span>Buenos Aires and in
+                        Warsaw</span> </p>
                 <div class="past-content">
-                    <p>Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
-                    <div class="past-card">
-                        <div class="past-card-content">
-                            <img src="./assets/images/summit-1.svg" alt="Exhibit Icon">
-                        </div>
-                    </div>
-                    <div class="past-card">
-                        <div class="past-card-content">
-                            <img src="./assets/images/summit-2.svg" alt="Exhibit Icon">
-                        </div>
-                    </div>
+                   
+    <div class="card-container">
+        <div class="card-content">
+            <h2>2011</h2>
+            <p>CC Global Summit 2011 in Warsaw</p>
+        </div>
+        <img src="./assets/images/ai-summit-ethz_1.jpg" alt="CC Global Summit 2011">
+    </div>
+
+        <div class="card-container">
+            <div class="card-content">
+                <h2>2011</h2>
+                <p>CC Global Summit 2011 in Warsaw</p>
+            </div>
+            <img src="./assets/images/ai-summit-ethz_2.jpg" alt="CC Global Summit 2011">
+        </div>
                 </div>
         
             </div>
@@ -118,7 +139,18 @@
                     <h1>Partner</h1>
                     <div class="section-indicator"></div>
                     <div class="partner-content">
-                       
+                    <div class="image-container">
+                        <div class="top-row">
+                            <img src="./assets/logos/sponsor_mozilla.png" alt="Mozilla Logo">
+                            <img src="./assets/logos/sponsor_google.png" alt="Google Logo">
+                            <img src="./assets/logos/sponsor_naver.png" alt="Mozilla Logo">
+                        </div>
+                        <div class="bottom-row">
+                            <img src="./assets/logos/sponsor_daimoku.png" alt="Daimoku Logo">
+                            <img src="./assets/logos/sponsor_airbnb.png" alt="Airbnb Logo">
+                        </div>
+                    </div>
+
                     </div>
             
                 </div>
@@ -129,18 +161,13 @@
 <section id="footer-section">
     <div class="footer-container">
         <div class="footer-column">
-
-<img src="./assets/logos/cck-logo1 1.svg" alt="">
-<p>2015 Creative Commons Korea.<span>Some Rights Reserved.</span></p>
-
-
+            <img src="./assets/images/logo-white.svg" alt="">
+            <p>2023 Creative Commons Korea.<span>Some Rights Reserved.</span></p>
         </div>
-       
-      
-        </div>
-
+        
     </div>
 </section>
+
             <!-- footer section  END-->
 
     

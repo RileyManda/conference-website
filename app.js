@@ -3,8 +3,6 @@ const openMenu = function openMenuHandler() {
 };
 
 const closeView = function closeNavHandler(event) {
-  event.preventDefault(); // Prevent the default link behavior
-
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.style.display = 'none';
 

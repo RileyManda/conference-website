@@ -14,22 +14,34 @@
 <body>
     <!-- navigation section| header -->
     <header class="toolbar">
+    <div class="social-navbar">
+        <nav class="social-icons-menu">
+            <div class="social-icons">
+                <a href="#" class="social-icon-menu"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon-menu"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon-menu">Logout</a>
+                    <a href="#" class="social-icon-menu">Mypage</a>
+                    <a href="#" class="social-icon-menu">Korean</a>
+            </div>
+        </nav>
+    </div>
         <div class="toolbar-menu">
             <nav class="nav-bar">
                 <div class="hamburger" id="open-menu" onclick="openMenu()">
                     <i class="fa fa-bars"></i>
                 </div>
                 <div class="logo"></div>
-                <div class="menu-container">
-                    <!-- <ul class="menu-list">
-    <li class="menu-item"><a href="#home-section">About</a></li>
-    <li class="menu-item"><a href="#about-section">Program</a></li>
-    <li class="menu-item"><a href="#about-section">Join</a></li>
-    <li class="menu-item"><a href="#about-section">Sponsor</a></li>
-    <li class="menu-item"><a href="#about-section">News</a></li>
-</ul> -->
+           
+                    <ul class="menu-list">
+    <li class="menu-item"><a href="about.html">About</a></li>
+    <li class="menu-item"><a href="#program-section">Program</a></li>
+    <li class="menu-item"><a href="#join-section">Join</a></li>
+    <li class="menu-item"><a href="#sponsor-section">Sponsor</a></li>
+    <li class="menu-item"><a href="#news-section">News</a></li>
+    <li class="menu-item"><a href="#cc-section">CC Campaign</a></li>
+</ul>
 
-                </div>
+              
 
             </nav>
 
@@ -38,14 +50,14 @@
     <!-- hero section END -->
 
     <!-- mobile-menu -->
-    <div class="mobile-menu hidden">
+    <div class="mobile-menu">
         <div class="mobile-menu-container">
             <div onclick="closeView()" class="close-btn" id="close-view">
                 <i class="fas fa-times"></i>
             </div>
             <!-- Content of the mobile menu -->
             <ul class="mobile-menu-list">
-                <li class="mobile-menu-list-items" onclick="closeView()"><a href="index.html">Home</a></li>
+                <li class="mobile-menu-list-items active" onclick="closeView()"><a href="index.html">Home</a></li>
                 <li class="mobile-menu-list-items" onclick="closeView()"><a href="about.html">About</a></li>
             </ul>
         </div>
@@ -76,10 +88,11 @@
 
         <!-- program section  START-->
         <section id="program-section">
-            <div class="program-container">
+            <div class="program-container" >
                 <h1>Main Program</h1>
                 <div class="section-indicator"></div>
-                <div class="program-content">
+                <div class="program-content"></div>
+                <!-- <div class="program-content">
                     <div class="program-card">
                         <div class="card-content">
                             <img src="./assets/icons/lecture-icon.svg" alt="Lecture Icon">
@@ -105,13 +118,9 @@
                     <div class="program-card">
                         <div class="card-content">
                             <img src="./assets/icons/forum-icon.svg" alt="Forum Icon">
-
-
-
                             <h3 class="card-title">Forum</h3>
                             <p class="card-description">Have the time to share your thoughts and opinions with experts
                                 for each topic.</p>
-
 
                         </div>
                     </div>
@@ -123,25 +132,21 @@
                             <h3 class="card-title">Workshop</h3>
                             <p class="card-description">Try creating your own work using open source license rather than
                                 just watching at it.</p>
-
                         </div>
                     </div>
-
 
                     <div class="program-card">
                         <div class="card-content">
                             <img src="./assets/icons/ignite-icon.svg" alt="Lecture Icon">
-
-
                             <h3 class="card-title">CC Ignite</h3>
                             <p class="card-description">get opportunities to network with CC affiliates around the
                                 world, also after the summit.</p>
-
                         </div>
                     </div>
 
                     <button class="program-btn">Join CC Global Summit</button>
-                </div>
+                    <a href="about.html" class="program-link-desktop">SEE THE WHOLE PROGRAM</a>
+                </div> -->
 
             </div>
         </section>
@@ -179,19 +184,116 @@
 
 
                         </div>
-                    </div>
+                   
+                   
+                </div>
 
-                    <a class="more-btn" href="#">
-                        MORE
-                        <i class="fas fa-chevron-down"></i>
-                    </a>
+                <div class="speaker-card more-speakers-lg">
+                    <img src="./assets/images/speaker_02.svg" alt="Lecture Icon">
+                    <div class="text-content">
+                        <h3 class="speaker-card-title">SohYeong Noh</h3>
+                        <p class="speaker-credential">Director of Art Centre Nabi and a board member of CC Korea</p>
+                        <div class="content-divider"></div>
+                        <p class="speaker-description">As the main venue for new media art production in Korea, Nabi
+                            promotes cross-disciplinary collaboration and
+                            understanding among science technology, humanities, and the arts.</p>
+                
+                
+                    </div>
+                
+                
+                </div>
+
+                <div class="speaker-card more-speakers-lg">
+                    <img src="./assets/images/speaker_02.svg" alt="Lecture Icon">
+                    <div class="text-content">
+                        <h3 class="speaker-card-title">SohYeong Noh</h3>
+                        <p class="speaker-credential">Director of Art Centre Nabi and a board member of CC Korea</p>
+                        <div class="content-divider"></div>
+                        <p class="speaker-description">As the main venue for new media art production in Korea, Nabi
+                            promotes cross-disciplinary collaboration and
+                            understanding among science technology, humanities, and the arts.</p>
+                
+                
+                    </div>
+                
+                
+                </div>
+                <div class="speaker-card more-speakers-lg">
+                    <img src="./assets/images/speaker_02.svg" alt="Lecture Icon">
+                    <div class="text-content">
+                        <h3 class="speaker-card-title">SohYeong Noh</h3>
+                        <p class="speaker-credential">Director of Art Centre Nabi and a board member of CC Korea</p>
+                        <div class="content-divider"></div>
+                        <p class="speaker-description">As the main venue for new media art production in Korea, Nabi
+                            promotes cross-disciplinary collaboration and
+                            understanding among science technology, humanities, and the arts.</p>
+                
+                
+                    </div>
+                
+                
+                </div>
+                <div class="speaker-card more-speakers-lg">
+                    <img src="./assets/images/speaker_02.svg" alt="Lecture Icon">
+                    <div class="text-content">
+                        <h3 class="speaker-card-title">SohYeong Noh</h3>
+                        <p class="speaker-credential">Director of Art Centre Nabi and a board member of CC Korea</p>
+                        <div class="content-divider"></div>
+                        <p class="speaker-description">As the main venue for new media art production in Korea, Nabi
+                            promotes cross-disciplinary collaboration and
+                            understanding among science technology, humanities, and the arts.</p>
+                
+                
+                    </div>
+                
+                
                 </div>
 
             </div>
+            <a class="more-btn" href="#">
+                MORE
+                <i class="fas fa-chevron-down"></i>
+            </a>
         </section>
+
+    <!-- partner section  START-->
+    <section id="partner-section" >
+        <div class="partner-container">
+            <h1>Partner</h1>
+            <div class="section-indicator"></div>
+            <div class="partner-content">
+                <div class="image-container">
+                    <div class="top-row">
+                        <img src="./assets/logos/sponsor_mozilla.png" alt="Mozilla Logo">
+                        <img src="./assets/logos/sponsor_google.png" alt="Google Logo">
+                        <img src="./assets/logos/sponsor_naver.png" alt="Mozilla Logo">
+                    </div>
+                    <div class="bottom-row">
+                        <img src="./assets/logos/sponsor_daimoku.png" alt="Daimoku Logo">
+                        <img src="./assets/logos/sponsor_airbnb.png" alt="Airbnb Logo">
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    </section>
+    <!-- partner section  START-->
+<section id="footer-section">
+    <div class="footer-container">
+        <div class="footer-column">
+            <img src="./assets/images/logo.svg" alt="">
+            <p>2023 Creative Commons Korea.<span>Some Rights Reserved.</span></p>
+        </div>
+
+    </div>
+</section>
+     
     </main>
     <script src="app.js"></script>
-
+    <script src="./api/home/data.js"></script>
+    <script type="module" src="./api/home/program.js"></script>
 </body>
 
 </html>
