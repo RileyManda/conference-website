@@ -33,8 +33,8 @@ export const programData = [
 
 export const logoData = [
   {
-    image: '../assets/images/logo.svg',
-    alt: 'Logo 1',
+    image: './assets/images/logo.svg',
+    alt: 'SapienAi Logo',
   },
 ];
 
