@@ -114,6 +114,15 @@ body {
   color: var(--mobile-items-color);
 }
 
+.close-btn {
+  position: absolute;
+  margin: 10px;
+  top: 60px;
+  right: 50px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
 .hidden {
   display: none;
 }
