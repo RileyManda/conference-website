@@ -925,10 +925,12 @@ body {
   }
 
   .footer-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
   }
 
   .footer-column {
@@ -937,6 +939,12 @@ body {
   }
 
   .footer-column img {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
     margin: 0;
     max-width: 100%;
     height: auto;
@@ -945,6 +953,12 @@ body {
 
   /* stylelint-disable-next-line no-descending-specificity */
   .footer-column p {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
     margin: 0;
     font-size: 12px;
     color: black;
