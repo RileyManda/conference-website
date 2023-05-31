@@ -99,3 +99,14 @@ export const speakerData = [
       'Arnold Prince is a leading expert in machine learning. With his deep understanding of the field, he has made significant contributions to the advancement of machine learning algorithms and applications.',
   },
 ];
+
+export const footerLogos = [
+  {
+    image: './assets/images/logo.svg',
+    alt: 'SapienAi Logo black',
+  },
+  {
+    image: './assets/images/logo-white.svg',
+    alt: 'SapienAi Logo white',
+  },
+];
