@@ -123,6 +123,7 @@ body {
   justify-content: flex-end;
   cursor: pointer;
 }
+
 .hidden {
   display: none;
 }

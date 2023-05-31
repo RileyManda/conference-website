@@ -16,3 +16,8 @@ const closeView = function closeNavHandler(event) {
 
 document.querySelector('#open-menu').addEventListener('click', openMenu);
 document.querySelector('#close-view').addEventListener('click', closeView);
+
+// Add click event listener to the logo
+document.querySelector('.logo').addEventListener('click', () => {
+  window.location.href = 'index.html';
+});
