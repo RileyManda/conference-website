@@ -23,10 +23,26 @@ const displaySpeakerCards = () => {
   const speakerCardsContainer = document.querySelector(
     '#speakers-section .speaker-content',
   );
-  speakerData.forEach((speaker) => {
-    const cardHTML = generateSpeakerCardHTML(speaker);
-    speakerCardsContainer.insertAdjacentHTML('beforeend', cardHTML);
-  });
+
+  const screenWidth = window.innerWidth;
+
+  // Check if screen size is greater than 768 pixels
+  if (screenWidth > 768) {
+    // Display all speaker cards
+    for (let i = 0; i < speakerData.length; i += 1) {
+      const speaker = speakerData[i];
+      const cardHTML = generateSpeakerCardHTML(speaker);
+      speakerCardsContainer.insertAdjacentHTML('beforeend', cardHTML);
+    }
+  } else {
+    // Display only two speaker cards
+    const maxCards = Math.min(2, speakerData.length);
+    for (let i = 0; i < maxCards; i += 1) {
+      const speaker = speakerData[i];
+      const cardHTML = generateSpeakerCardHTML(speaker);
+      speakerCardsContainer.insertAdjacentHTML('beforeend', cardHTML);
+    }
+  }
 };
 
 displaySpeakerCards();

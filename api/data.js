@@ -34,7 +34,7 @@ export const programData = [
 export const speakerData = [
   {
     image: './assets/images/speaker_01.svg',
-    name: 'Yochai Benkler',
+    name: 'John Wayne',
     credential:
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
@@ -42,14 +42,14 @@ export const speakerData = [
   },
   {
     image: './assets/images/speaker_02.svg',
-    name: 'SohYeong Noh',
+    name: 'Micahel Pong',
     credential: 'Director of Art Centre Nabi and a board member of CC Korea',
     description:
       'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
   {
     image: './assets/images/speaker_01.svg',
-    name: 'Yochai Benkler',
+    name: 'David Jonathan',
     credential:
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
@@ -57,14 +57,14 @@ export const speakerData = [
   },
   {
     image: './assets/images/speaker_02.svg',
-    name: 'SohYeong Noh',
+    name: 'Angela Ping',
     credential: 'Director of Art Centre Nabi and a board member of CC Korea',
     description:
       'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
   {
     image: './assets/images/speaker_01.svg',
-    name: 'Yochai Benkler',
+    name: 'Marry King',
     credential:
       'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     description:
@@ -72,7 +72,7 @@ export const speakerData = [
   },
   {
     image: './assets/images/speaker_02.svg',
-    name: 'SohYeong Noh',
+    name: 'Arnorld Prince',
     credential: 'Director of Art Centre Nabi and a board member of CC Korea',
     description:
       'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
@@ -86,7 +86,6 @@ export const logoData = [
   },
 ];
 
-export const description = 'Take a look at the past two CC Global Summits which took place <span>Buenos Aires and in Warsaw</span>';
 export const pastSummitsData = [
   {
     year: '2011',
