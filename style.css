@@ -20,7 +20,7 @@ body {
 :root {
   --dark-color: #272a31;
   --main-theme-color: #ec5242;
-  --main-background-color: #fbf9f9;
+  --main-background-color: #fff;
   --white-color: #fff;
   --grey-color: #d3d3d3;
   --menu-items-color: #000;
@@ -499,7 +499,7 @@ body {
     background-size: contain;
     width: 100px;
     height: 100px;
-    margin-left: 120px;
+    margin-left: 160px;
   }
 
   /* menu-section START  */
@@ -543,7 +543,7 @@ body {
     border: 4px solid var(--main-theme-color);
     padding: 8px;
     border-radius: 4px;
-    margin-right: -273px;
+    margin-right: -180px;
     margin-left: 390px;
   }
 
