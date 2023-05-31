@@ -938,7 +938,7 @@ body {
     align-items: center;
   }
 
-  .footer-column img {
+  .footer-column img:nth-child(1) {
     display: block;
     flex-grow: 0;
     flex-shrink: 1;
@@ -953,14 +953,14 @@ body {
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
-  .footer-column p {
+  .footer-column p:nth-child(2) {
+    font-size: 18px;
     display: block;
     flex-grow: 0;
     flex-basis: auto;
     align-self: auto;
     order: 0;
     margin: 0;
-    font-size: 12px;
     color: black;
     white-space: nowrap;
     padding: 10px;
