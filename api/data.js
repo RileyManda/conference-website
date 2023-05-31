@@ -1,81 +1,33 @@
 export const programData = [
   {
-    title: 'Lecture',
+    title: 'Chats',
     description:
-      'Listen to the speakers from various countries about the messages of sharing and opening.',
+      'Join inspiring talks by speakers. Explore sharing in Sapien Ai Creative Commons.',
     icon: './assets/icons/lecture-icon.svg',
   },
   {
-    title: 'CC Exhibition',
+    title: 'Arts',
     description:
-      'Appreciate various creations applying CC license of artists, organized from Art Center Nabi',
+      'Immerse in art at CC Exhibit. Discover diverse creations in Sapien Ai Creative Commons.',
     icon: './assets/icons/exhibit-icon.svg',
   },
   {
-    title: 'Forum',
+    title: 'Debate',
     description:
-      'Have the time to share your thoughts and opinions with experts for each topic.',
+      'Engage in debates exploring AI, software, and expression in Sapien Ai Creative Commons.',
     icon: './assets/icons/forum-icon.svg',
   },
   {
-    title: 'Workshop',
+    title: 'Work',
     description:
-      'Try creating your own work using open source license rather than just watching at it.',
+      'Unlock creativity in hands-on sessions. Dive into AI and software to unleash potential.',
     icon: './assets/icons/workshop-icon.svg',
   },
   {
-    title: 'CC Ignite',
+    title: 'Connect',
     description:
-      'Get opportunities to network with CC affiliates around the world, also after the summit.',
+      'Expand network, connect with Sapien Ai Creative Commons affiliates. Explore AI-driven innovation.',
     icon: './assets/icons/ignite-icon.svg',
-  },
-];
-
-export const speakerData = [
-  {
-    image: './assets/images/speaker_01.svg',
-    name: 'John Wayne',
-    credential:
-      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-  },
-  {
-    image: './assets/images/speaker_02.svg',
-    name: 'Micahel Pong',
-    credential: 'Director of Art Centre Nabi and a board member of CC Korea',
-    description:
-      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
-  },
-  {
-    image: './assets/images/speaker_01.svg',
-    name: 'David Jonathan',
-    credential:
-      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-  },
-  {
-    image: './assets/images/speaker_02.svg',
-    name: 'Angela Ping',
-    credential: 'Director of Art Centre Nabi and a board member of CC Korea',
-    description:
-      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
-  },
-  {
-    image: './assets/images/speaker_01.svg',
-    name: 'Marry King',
-    credential:
-      'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    description:
-      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-  },
-  {
-    image: './assets/images/speaker_02.svg',
-    name: 'Arnorld Prince',
-    credential: 'Director of Art Centre Nabi and a board member of CC Korea',
-    description:
-      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
 ];
 
