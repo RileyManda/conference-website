@@ -7,11 +7,6 @@ const closeView = function closeNavHandler(event) {
   event.preventDefault();
   const mobileMenu = document.querySelector('.mobile-menu');
   mobileMenu.style.display = 'none';
-
-  const clickedLink = event.target.closest('a');
-  if (clickedLink && clickedLink.getAttribute('href') === '#home-section') {
-    window.location.href = 'index.html';
-  }
 };
 
 // Add click event listener to the logo
@@ -22,3 +17,9 @@ document.querySelector('.logo').addEventListener('click', (event) => {
 
 document.querySelector('#open-menu').addEventListener('click', openMenu);
 document.querySelector('#close-view').addEventListener('click', closeView);
+
+// Add click event listeners to menu items
+const menuItems = document.querySelectorAll('.mobile-menu-list-items');
+menuItems.forEach((menuItem) => {
+  menuItem.addEventListener('click', closeView);
+});
