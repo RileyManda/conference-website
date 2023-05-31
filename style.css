@@ -243,7 +243,7 @@ body {
   margin: 0 10px 10px;
 }
 
-.program-container h1 {
+.program-container h2 {
   position: relative;
   font-style: normal;
   font-size: 30px;
@@ -251,7 +251,10 @@ body {
   text-align: center;
   margin-bottom: 5px;
   padding: 1rem;
-  margin-top: -100px;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
 }
 
 .section-indicator {
@@ -354,7 +357,7 @@ body {
   margin: 10px 20px 20px;
 }
 
-.speaker-container h1 {
+.speaker-container h2 {
   position: relative;
   font-style: normal;
   font-size: 30px;
@@ -660,7 +663,7 @@ body {
     position: relative;
   }
 
-  .program-container h1 {
+  .program-container h2 {
     position: relative;
     font-style: normal;
     font-size: 30px;
@@ -668,10 +671,10 @@ body {
     text-align: center;
     margin-bottom: 5px;
     padding: 1rem;
-    margin-top: -100px;
-    margin-right: 10px;
-    margin-left: 10px;
-    white-space: nowrap;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
   }
 
   .section-indicator {
@@ -788,7 +791,7 @@ body {
     margin: 10px 20px 20px;
   }
 
-  .speaker-container h1 {
+  .speaker-container h2 {
     position: relative;
     font-style: normal;
     font-size: 30px;
@@ -882,7 +885,7 @@ body {
     margin: 0 10px 10px;
   }
 
-  .partner-container h1 {
+  .partner-container h2 {
     position: relative;
     font-style: normal;
     font-size: 30px;
@@ -891,6 +894,9 @@ body {
     margin-bottom: 5px;
     padding: 1rem;
     margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
   }
 
   .partner-content {
@@ -1200,7 +1206,7 @@ body {
     margin: 0 10px 10px;
   }
 
-  .program-container h1 {
+  .program-container h2 {
     position: relative;
     font-style: normal;
     font-size: 30px;
@@ -1208,7 +1214,10 @@ body {
     text-align: center;
     margin-bottom: 5px;
     padding: 1rem;
-    margin-top: -100px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
   }
 
   .section-indicator {
@@ -1311,7 +1320,7 @@ body {
     margin: 10px 20px 20px;
   }
 
-  .speaker-container h1 {
+  .speaker-container h2 {
     position: relative;
     font-style: normal;
     font-size: 30px;
