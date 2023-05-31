@@ -949,13 +949,13 @@ body {
     max-width: 100%;
     height: auto;
     padding: 10px;
+    width: 200px;
   }
 
   /* stylelint-disable-next-line no-descending-specificity */
   .footer-column p {
     display: block;
     flex-grow: 0;
-    flex-shrink: 1;
     flex-basis: auto;
     align-self: auto;
     order: 0;
@@ -964,11 +964,12 @@ body {
     color: black;
     white-space: nowrap;
     padding: 10px;
+    width: 200px;
   }
 
   .footer-column p:last-child {
     margin-top: 5px;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .footer-column p span {
