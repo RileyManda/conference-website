@@ -931,10 +931,12 @@ body {
   .footer-column img {
     content: url('./assets/images/logo-white.svg');
   }
+
   /* stylelint-disable-next-line no-descending-specificity */
   .footer-column img + img {
     display: none;
   }
+
   /* stylelint-disable-next-line no-descending-specificity */
   .footer-column p:nth-child(2) {
     font-size: 15px;
