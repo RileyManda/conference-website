@@ -910,6 +910,7 @@ body {
   /* footer section START */
   #footer-section {
     background-color: var(--white-color);
+    display: block;
   }
 
   .footer-container {
@@ -926,7 +927,7 @@ body {
 
   .footer-column img {
     margin: 0;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     padding: 10px;
   }
