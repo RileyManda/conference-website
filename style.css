@@ -1194,7 +1194,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--dark-color);
-    height: 70vh;
+    height: 90vh;
     margin-top: -110px;
     background-image: url("assets/images/pattern_bg.png");
     background-repeat: repeat;
