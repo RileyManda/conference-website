@@ -451,7 +451,7 @@ body {
 @media only screen and (min-width: 768px) {
   /* toolbar- START  */
   .social-navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -537,10 +537,6 @@ body {
 
   .menu-item {
     position: relative;
-  }
-
-  .active-item {
-    color: var(--main-theme-color);
   }
 
   .menu-item:last-child {
